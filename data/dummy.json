@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "email": "immersionvr.tt@gmail.com",
+      "role": "admin",
+      "name": "Admin User",
+      "createdAt": "2025-08-20 23:16:58.542250"
+    },
+    {
+      "email": "manager@immersionvr.tt",
+      "role": "manager",
+      "name": "Manager One",
+      "createdAt": "2025-08-20 23:16:58.542265"
+    },
+    {
+      "email": "employee@immersionvr.tt",
+      "role": "employee",
+      "name": "Employee One",
+      "createdAt": "2025-08-20 23:16:58.542267"
+    },
+    {
+      "email": "player1@example.com",
+      "role": "customer",
+      "name": "Player One",
+      "createdAt": "2025-08-20 23:16:58.542268",
+      "createdByRole": "public"
+    }
+  ],
+  "bookings": [
+    {
+      "title": "VR Session \u2022 Booth A2",
+      "startTime": "2025-08-22 02:16:58.542270",
+      "duration": 60,
+      "status": "confirmed",
+      "userId": "player1"
+    },
+    {
+      "title": "VR Session \u2022 Booth B1",
+      "startTime": "2025-08-23 00:16:58.542278",
+      "duration": 30,
+      "status": "confirmed",
+      "userId": "player1"
+    },
+    {
+      "title": "Team Event \u2022 Party",
+      "startTime": "2025-08-24 01:16:58.542281",
+      "duration": 60,
+      "status": "pending",
+      "userId": "player1"
+    }
+  ],
+  "blogPosts": [
+    {
+      "title": "New Game Launch: Neon Arena",
+      "excerpt": "Suit up! Neon Arena is now live at IMMERSION.",
+      "status": "published",
+      "publishedAt": "2025-08-19 23:16:58.542283"
+    },
+    {
+      "title": "Weekend Tournament Recap",
+      "excerpt": "Highlights and winners from our Saturday showdown.",
+      "status": "published",
+      "publishedAt": "2025-08-16 23:16:58.542286"
+    },
+    {
+      "title": "Safety Tips for First-Timers",
+      "excerpt": "Best practices for your first VR adventure.",
+      "status": "scheduled",
+      "publishAt": "2025-08-21 23:16:58.542289"
+    },
+    {
+      "title": "Summer Promo Ending Soon",
+      "excerpt": "Book now before the promo expires.",
+      "status": "expired",
+      "expireAt": "2025-08-18 23:16:58.542291"
+    }
+  ]
+}

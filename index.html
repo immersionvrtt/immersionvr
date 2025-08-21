@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Immersion VR • Home</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<header>
+  <div style="display:flex;align-items:center;gap:10px">
+    <img src="assets/logo.png" alt="Immersion" style="height:36px;width:auto;border-radius:8px" />
+    <strong>IMMERSION VR</strong>
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+    <a href="admin.html" class="badge">Dashboard</a>
+  </nav>
+</header>
+<section class="hero container">
+  <h1>Step into Immersion</h1>
+  <p>Private VR booths • PC gaming • Events • Parties</p>
+  <a class="btn" href="#book">Book Now</a>
+</section>
+<section class="container" id="book">
+  <div class="grid">
+    <div class="card">
+      <h3>Book a Session</h3>
+      <label>Date <input class="input" type="date" id="date" /></label><br/><br/>
+      <label>Time <select id="time" class="input"></select></label><br/><br/>
+      <label>Duration <select id="dur" class="input"><option>30</option><option selected>60</option></select></label><br/><br/>
+      <label>Your Name <input class="input" id="custName" placeholder="Your full name"/></label><br/>
+      <label>Contact Number <input class="input" id="custPhone" placeholder="+1 (868) ..."/></label><br/>
+      <label>Notes (optional) <input class="input" id="custNote" placeholder="Birthday, group size, etc."/></label><br/>
+      <button class="btn" id="confirm">Confirm Booking</button>
+      <p id="bookMsg"></p>
+    </div>
+    <div class="card">
+      <h3>My Appointments</h3>
+      <div id="myAppts"></div>
+    </div>
+  </div>
+</section>
+<footer>
+  <p>© Immersion VR Arcade • Princes Town • Open: Mon–Thu 9–6 • Fri–Sat 9–7 • Sun 9–6</p>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>
